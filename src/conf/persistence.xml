@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="MedicalPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>www.medical.in.entities.TServiceDependent</class>
+    <class>www.medical.in.entities.TPowerDetails</class>
+    <class>www.medical.in.entities.MStates</class>
+    <class>www.medical.in.entities.TOtherInformation</class>
+    <class>www.medical.in.entities.TService</class>
+    <class>www.medical.in.entities.MRaisedQuery</class>
+    <class>www.medical.in.entities.MSubtypes</class>
+    <class>www.medical.in.entities.MSecurityQuestion</class>
+    <class>www.medical.in.entities.TEmployeeDetails</class>
+    <class>www.medical.in.entities.TWaterDetails</class>
+    <class>www.medical.in.entities.TUploadDoc</class>
+    <class>www.medical.in.entities.TApprovalStatus</class>
+    <class>www.medical.in.entities.TRegistration</class>
+    <class>www.medical.in.entities.TAppliedFor</class>
+    <class>www.medical.in.entities.MVillage</class>
+    <class>www.medical.in.entities.TEquipment</class>
+    <class>www.medical.in.entities.TEntrepreneurDetails</class>
+    <class>www.medical.in.entities.TExistingUserLicenseDetails</class>
+    <class>www.medical.in.entities.MUsers</class>
+    <class>www.medical.in.entities.TApplicantTransaction</class>
+    <class>www.medical.in.entities.TLandDetails</class>
+    <class>www.medical.in.entities.TOwnershipDetails</class>
+    <class>www.medical.in.entities.MDocuments</class>
+    <class>www.medical.in.entities.TStaffDetails</class>
+    <class>www.medical.in.entities.MStatus</class>
+    <class>www.medical.in.entities.TEstablishmentDtls</class>
+    <class>www.medical.in.entities.TAllopathicEquipmentDtls</class>
+    <class>www.medical.in.entities.TReason</class>
+    <class>www.medical.in.entities.TTestsFacilities</class>
+    <class>www.medical.in.entities.MStages</class>
+    <class>www.medical.in.entities.TQuestionnaire</class>
+    <class>www.medical.in.entities.MDistrict</class>
+    <class>www.medical.in.entities.MExistingUserDetails</class>
+    <class>www.medical.in.entities.TWorkflow</class>
+    <class>www.medical.in.entities.MDocumentType</class>
+    <class>www.medical.in.entities.MUsertype</class>
+    <class>www.medical.in.entities.TApprovalsApplicant</class>
+    <class>www.medical.in.entities.TOtherRemarks</class>
+    <class>www.medical.in.entities.MMandal</class>
+    <class>www.medical.in.entities.TServiceDoc</class>
+    <class>www.medical.in.entities.MRoles</class>
+    <class>www.medical.in.entities.MDepartment</class>
+    <class>www.medical.in.entities.MDetails</class>
+    <class>www.medical.in.entities.TFacilityDetails</class>
+    <class>www.medical.in.entities.TLineOfActivity</class>
+    <class>www.medical.in.entities.MType</class>
+    <class>www.medical.in.entities.TRevWorkflow</class>
+    <class>www.medical.in.entities.TApplicantDetails</class>
+    <class>www.medical.in.entities.MInspectionquestion</class>
+    <class>www.medical.in.entities.TInspectionanswer</class>
+    <class>www.medical.in.entities.MUser</class>
+    <class>www.medical.in.entities.TInspection</class>
+    <class>www.medical.in.entities.TTransaction</class>
+    <class>www.medical.in.entities.TlocationImage</class>
+    <class>www.medical.in.entities.TLocation</class>
+    <class>www.medical.in.entities.TUpload</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://120.138.9.243:1433;databaseName=MedicalDemo"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="Sa12345$"/>
+    </properties>
+  </persistence-unit>
+</persistence>
